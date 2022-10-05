@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan Form</title> 
+    </head>
+    <body>
+        <form name="frmlatihan" method="post" action="#" >
+          <table border="0" align="center" cellpadding="20">
+             <thead>
+                <tr>
+                    <th colspan="2" bgcolor="gray">BUKU TAMU</th>
+                </tr>
+             </thead>
+             <TBody>
+                <tr>
+                    <td width="25%"><label for="">Nama</label></td>
+                    <td>
+                        <input type="text" name="nama" value="" placeholder="nama lengkap" size="50" maxlength="100">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Email</label></td>
+                    <td>
+                        <input type="text" name="email" value="" placeholder="masukkan email" size="30" maxlength="10">
+                    </td>
+                </tr>
+                <tr>
+                    <td><Label>Gender</Label></td>
+                    <td>
+                        <input type="radio" name="gender" value="L">Laki-laki&nbsp;
+                        <input type="radio" name="gender" value="P">Perempuan
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><Label>Hobby</Label></td>
+                    <td>
+                        <input type="checkbox" value="membaca">Membaca <br>
+                        <input type="checkbox" value="olahraga">Olahraga <br>
+                        <input type="checkbox" value="memasak" checked>memasak <br>
+                        <input type="checkbox" value="menyanyi">Menyanyi <br>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="">Pendidikan</label></td>
+                    <td>
+                        <select name="Pendidikan" id="">
+                         <option value="">--pilih pendidikan--</option>
+                         <option value="SMA">SMA</option>
+                         <option value="SMP">SMP</option>
+                         <option value="SD">SD</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td valign="top"><label for="">Komentar</label></td>
+                    <td>
+                        <TEXTarea name="komentar" cols="50" rows="6" placeholder="Masukkan komentar"></TEXTarea>
+                    </td>
+                </tr>
+             </TBody>
+             <tfoot>
+                <tr>
+                    <th colspan="2" bgcolor="gray">
+                        <input type="submit" name="Proses" value="kirim">
+                        <input type="reset" name="unproses" value="batal"> 
+                    </th>
+                </tr>
+             </tfoot>
+          </table>
+        </form>
+    </body>
+</html>
